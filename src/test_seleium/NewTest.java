@@ -18,6 +18,7 @@ public class NewTest {
   public void f() {
 	  String homePageTitle = driver.getTitle();
 		Assert.assertEquals(homePageTitle, "Google");
+		// THIS IS TEST FUNCTION
 	  
   }
   @BeforeClass
