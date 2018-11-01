@@ -24,7 +24,7 @@ public class NewTest {
   public void beforeClass() {
 	  	System.setProperty("webdriver.chrome.driver", ".\\lib\\chromedriver.exe");
 		driver = new ChromeDriver();
-
+		// CHANGE FILE NEWTEST
 		// Firefox
 		//driver = new FirefoxDriver();
 		driver.get("https://www.google.com/");
