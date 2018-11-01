@@ -18,13 +18,18 @@ public class NewTest {
   public void f() {
 	  String homePageTitle = driver.getTitle();
 		Assert.assertEquals(homePageTitle, "Google");
+		// THIS IS TEST FUNCTION
 	  
   }
   @BeforeClass
   public void beforeClass() {
 	  	System.setProperty("webdriver.chrome.driver", ".\\lib\\chromedriver.exe");
 		driver = new ChromeDriver();
+<<<<<<< HEAD
 		// CHANGE FILE NEWTEST
+=======
+		System.out.print("hello test automation");		
+>>>>>>> branch 'master' of https://github.com/minhtrang1788/testAutomationlink
 		// Firefox
 		//driver = new FirefoxDriver();
 		driver.get("https://www.google.com/");
